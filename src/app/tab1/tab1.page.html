@@ -1,17 +1,46 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 1
+      FILMES
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <h1>O Livro De Eli</h1>
+        <h2>11 De Janeiro De 2010</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/my1Xx9hUTZBGokZkGL4rsPHf7JB.jpg"/>
+        <p>"Em um futuro não muito distante, 30 anos após o término da última guerra. Eli (Denzel Washington) é um homem solitário, que percorre a América do Norte devastada.…"</p>
+        <ion-button shape="round" fill="outline" color="warning">+ Informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>Coringa</h1>
+        <h2>2 De Outubro De 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/xLxgVxFWvb9hhUyCDDXxRPPnFck.jpg"/>
+        <p>"Arthur Fleck (Joaquin Phoenix) trabalha como palhaço para uma agência de talentos e, toda semana, precisa comparecer a uma agente social, devido aos seus conhecidos…"</p>
+        <ion-button shape="round" fill="outline" color="warning">+ Informações...</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <h1>Zumbilândia: Atire Duas Vezes</h1>
+        <h2>9 De Outubro de 2019</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/x8T7xy6usNhTWphfQTH7vmr4tOC.jpg"/>
+        <p>"Dez anos após Zombieland virar um filme de sucesso e um clássico cult, o elenco principal (Woody Harrelson, Jesse Eisenberg, Abigail Breslin e Emma Stone) se reuniu…"</p>
+        <ion-button shape="round" fill="outline" color="warning">+ Informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>John Wick: De Volta Ao Jogo</h1>
+        <h2>22 De Outubro De 2014</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/rboZslo3eQWKBQ3QvlO6wGV0J3K.jpg"/>
+        <p>"John Wick (Keanu Reeves) já foi um dos assassinos mais temidos da cidade de Nova York, trabalhando em parceria com a máfia russa. Um dia, ele decide se aposentar…"</p>
+        <ion-button shape="round" fill="outline" color="warning">+ Informações...</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
